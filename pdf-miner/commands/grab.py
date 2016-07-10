@@ -1,3 +1,21 @@
+"""
+Script for grabbing pdfs from a given web link.
+
+Usage: python grab_pdfs.py [url] <path/to/outputdir>
+    - url is required
+    - path needs to be absolute, but is optional
+        - defaults to dir from which script is run
+          if path does not exist or not provided.
+
+Dependencies:
+    - python 2.7.5 (anaconda distro is reccomended)
+    - requests >= version 1.0.4
+    - beautifulsoup >= version 4.0.0
+    - dependencies can all be installed w/ recent pip.
+
+MIT License
+"""
+
 from requests import get
 from urlparse import urljoin
 from os import path, getcwd, system
