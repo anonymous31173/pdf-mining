@@ -2,12 +2,20 @@
 pdf-miner
 
 Usage:
-  pdf-miner grab <URL>
-  pdf-miner grab --input=FILE
-  pdf-miner parse [<path/to/dir>] [-o OUTPUT_DIR | --output OUTPUT_DIR]
-  pdf-miner join [<path/to/dir>] [-o OUTPUT_DIR | --output OUTPUT_DIR]
+  pdf-miner grab
+  pdf-miner parse 
+  pdf-miner join
   pdf-miner -h | --help
   pdf-miner -v | --version
+
+Options:
+  -h --help
+  -v --version
+
+Examples:
+  pdf-miner grab
+  pdf-miner parse
+  pdf-miner join
 
 Help:
   For help using this tool, please open an issue on GitHub. 
