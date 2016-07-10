@@ -1,11 +1,10 @@
 """
 Script for grabbing pdfs from a given web link.
 
-Usage: python grab_pdfs.py [url] <path/to/outputdir>
-    - url is required
-    - path needs to be absolute, but is optional
-        - defaults to dir from which script is run
-          if path does not exist or not provided.
+- url is required
+- path needs to be absolute, but is optional
+    - defaults to dir from which script is run
+      if path does not exist or not provided.
 
 Dependencies:
     - python 2.7.5 (anaconda distro is reccomended)
@@ -54,5 +53,5 @@ if __name__=='__main__':
         print e
         exit(-1)
 
-	
-	
+
+
